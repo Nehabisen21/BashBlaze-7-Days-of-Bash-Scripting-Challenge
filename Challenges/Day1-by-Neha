@@ -1,0 +1,60 @@
+Task 1
+#####(Commenting)
+
+#!/bin/bash 
+#This is hash is used to comment any instructions, by commenting something means that particular line will not execute.
+#If someone new is come to see our shell script So, by commenting we can explain what is the meaning of our particular line.
+#Commenting is for our better understand of any shell script aur code.
+
+***************************************************************************************************************************************
+
+Task 2
+#Echo
+
+echo "Hello Everyone, Welcome To BashBlaze-7-Days-of-Scripting-Challenge "
+echo "Happy to learn Shell Scripting"
+
+***************************************************************************************************************************************
+
+Task 3
+
+#Variables
+
+Val = "Welcome"
+Val2 = "Everyone"
+
+**************************************************************************************************************************************
+
+Task 4
+
+#Using Variables
+
+#taking val and val2 from task 3
+
+Sum=$(($val1+$val2))
+
+*************************************************************************************************************************************
+
+Task 5
+
+#Using Built-in Variables
+
+echo "##########"
+echo "Current working directory is: $PWD"
+echo "Which Bash Shell You Are Using: $BASH"
+echo "Bash Version: $BASH_VERSION"
+echo "PID of bash I am running: $BASHPID"
+echo "My home directory: $HOME"
+echo "HostName: $HOSTNAME"
+echo "##########"
+
+***********************************************************************************************************************************
+
+Task 6
+#Wildcards
+list=$(ls -lrt *txt)
+echo $list
+
+***********************************************************************************************************************************
+
+
