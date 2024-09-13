@@ -57,4 +57,35 @@ echo $list
 
 ***********************************************************************************************************************************
 
+****************************************Another Solution*************************************************************************
+
+#!/bin/bash
+
+#this is my 1st day of scripting challenge
+
+echo " Day one of shell script "
+
+dt=$(date)
+ echo " date:${dt} "
+
+#user input
+
+echo " Enter 1st Number "
+read num1
+echo " Enter 2nd Number "
+read num2
+
+sum=$(($num1+$num2))
+echo " $sum "
+
+#built-in Variables
+
+echo "${#}"
+echo "${?}"
+echo "${0}"
+
+#wildcards
+
+# * (star) is a one kind of wildcardsstar
+
 
